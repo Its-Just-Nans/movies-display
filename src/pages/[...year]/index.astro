@@ -34,7 +34,7 @@ const json = JSON.parse(data)
             return (
                 <div class={id}>
                     {movie.title}
-                    <a href={`${year}/${movie.slug}`}>More info</a>
+                    <a href={movie.slug}>More info</a>
                     <MakeWatched id={id} />
                     <hr />
                 </div>
